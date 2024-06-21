@@ -1,0 +1,27 @@
+# 153/300 iterations complete ✅ (258711.19s)
+# Best fitness=1.27559 observed at iteration 47
+# Best fitness metrics are {'metrics/precision(B)': 0.95418, 'metrics/recall(B)': 0.9251, 'metrics/mAP50(B)': 0.96797, 'metrics/mAP50-95(B)': 0.62091, 'metrics/precision(M)': 0.95771, 'metrics/recall(M)': 0.923, 'metrics/mAP50(M)': 0.96712, 'metrics/mAP50-95(M)': 0.5814, 'val/box_loss': 1.97402, 'val/seg_loss': 2.61242, 'val/cls_loss': 0.54993, 'val/dfl_loss': 0.7143, 'fitness': 1.27559}
+# Best fitness hyperparameters are printed below.
+
+lr0: 0.0128
+lrf: 0.01249
+momentum: 0.97539
+weight_decay: 0.001
+warmup_epochs: 3.97971
+warmup_momentum: 0.84845
+box: 10.86889
+cls: 0.48523
+dfl: 0.88746
+hsv_h: 0.00355
+hsv_s: 0.9
+hsv_v: 0.5483
+degrees: 0.0
+translate: 0.09514
+scale: 0.67706
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.44869
+mosaic: 0.78002
+mixup: 0.0
+copy_paste: 0.0

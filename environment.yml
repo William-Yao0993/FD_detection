@@ -1,0 +1,29 @@
+name: trainenv
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+  - nvidia
+
+dependencies:
+  - python=3.11
+  - pandas
+  - Pillow
+  - seaborn
+  - matplotlib
+  - numpy
+  - pip
+  - pytorch>=2.2
+  - scipy
+  - torchvision>=0.17
+  - torchaudio 
+  #- cpuonly 
+  - pytorch-cuda
+  - cudatoolkit
+  - ultralytics
+  - scikit-learn
+  - pip:
+    - opencv-contrib-python
+    - comet_ml
+    - roboflow
+

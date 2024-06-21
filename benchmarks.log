@@ -1,0 +1,16 @@
+
+Benchmarks complete for detect_bt_2024_01_10.pt on datasets\FD-Project-1-4\data.yaml at imgsz=640 (174.96s)
+                   Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)
+0                 PyTorch       ✅       21.5               0.4798                  258.59
+1             TorchScript       ✅       42.8               0.4718                  285.00
+2                    ONNX       ✅       42.6               0.4718                  202.80
+3                OpenVINO       ✅       42.8               0.4718                  209.68
+4                TensorRT       ❌        0.0                  NaN                     NaN
+5                  CoreML       ❌        0.0                  NaN                     NaN
+6   TensorFlow SavedModel       ❌        0.0                  NaN                     NaN
+7     TensorFlow GraphDef       ❌        0.0                  NaN                     NaN
+8         TensorFlow Lite       ❌        0.0                  NaN                     NaN
+9     TensorFlow Edge TPU       ❌        0.0                  NaN                     NaN
+10          TensorFlow.js       ❌        0.0                  NaN                     NaN
+11           PaddlePaddle       ❌        0.0                  NaN                     NaN
+12                   ncnn       ✅       42.6               0.4718                  240.96
